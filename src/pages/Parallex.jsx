@@ -34,7 +34,7 @@ const Parallex = () => {
 
             <div className='lg:h-[300vh] sm:h-[200vh] md:h[200vh] relative w-full bg-linear-to-b from-[#101010] to-amber-50"'>
 
-                <div className='parallex-text lg:h-screen max-sm:h-[30vh] md:h-[50vh] w-full sticky lg:top-0 max-sm:top-50 bg-transparent pt-[17%]  mix-blend-difference z-40 text-white lg:text-[8vw] max-sm:text-[10vw] md:text-[10vw] md:leading-23 text-center lg:leading-28 max-sm:leading-14 '>
+                <div className='parallex-text lg:h-screen xl:leading-38 max-sm:h-[30vh] md:h-[50vh] w-full sticky lg:top-0 max-sm:top-50 bg-transparent pt-[17%]  mix-blend-difference z-40 text-white lg:text-[8vw] max-sm:text-[10vw] md:text-[10vw] md:leading-23 text-center lg:leading-28 max-sm:leading-14 '>
                     <h1 className=''>Let's Make </h1>
                     <h1>Things Happen.</h1>
                 </div>

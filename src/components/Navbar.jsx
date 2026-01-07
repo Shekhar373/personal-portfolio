@@ -21,13 +21,13 @@ const Navbar = () => {
       <div className='text-[2vw] max-sm:text-xl tracking-widest  '>
         <h1 className=''>Shekhar</h1>
       </div>
-      <div className='flex gap-16 max-md:hidden tracking-widest '>
+      <div className='flex gap-16 max-md:hidden tracking-widest xl:text-2xl '>
         <h2 className='border-animate'> ABOUT ME</h2>
         <h2 className='border-animate'>WORKS</h2>
         <h2 className='border-animate'>SERVICES</h2>
         <h2 className='border-animate'>CONNECT</h2>
       </div>
-      <div className=' tracking-widest'>
+      <div className=' tracking-widest xl:text-2xl'>
         <h2>CONTECT ME</h2>
       </div>
     </div>

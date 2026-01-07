@@ -34,13 +34,13 @@ const HeroFooter = () => {
     return (
         <div className=' lg:h-[90vh] sm:h-[20vh] max-md:h-[40vh] flex flex-col '>
             <div className='w-full flex justify-center items-center max-sm:hidden'>
-                <div className='h-[10vh] w-[35vw] tracking-widest md:pt-20 lg:pt-0 text-[18px] font-extralight uppercase flex justify-center mt-14 text-center'>
+                <div className='h-[10vh] w-[35vw] tracking-widest xl:text-3xl lg:text-2xl md:pt-20 lg:pt-0 text-[18px] font-extralight uppercase flex justify-center mt-14 text-center'>
                     <h3>Frontend Developer crafting animated and interactive web experiences</h3>
                 </div>
             </div>
             <div className='p-10 mt-28 w-fit'>
-                <h1 className='text-xl'>AVAILABLE TO COLLABORATION</h1>
-                <h1 className='border-animate text-2xl  font-medium lg:ml-20 max-sm:ml-10 cursor-pointer'>shekhar24102004@gmail.com</h1>
+                <h1 className='text-xl xl:text-3xl'>AVAILABLE TO COLLABORATION</h1>
+                <h1 className='border-animate text-2xl xl:text-3xl font-medium lg:ml-20 max-sm:ml-10 cursor-pointer'>shekhar24102004@gmail.com</h1>
             </div>
             
             

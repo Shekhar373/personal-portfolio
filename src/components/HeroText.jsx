@@ -69,7 +69,7 @@ const HeroText = () => {
                         <h1>INDIA</h1>
                     </div>
                     <div className='lg:h-[49vh] md:h-[30vh] max-sm:h-[20vh]  w-full flex lg:justify-center relative  '>
-                        <div className=' skill h-full  lg:w-[40%] flex flex-col lg:justify-end  text-2xl max-sm:pl-39 max-sm:pt-35  font-medium max-sm:leading-6
+                        <div className=' skill h-full  lg:w-[40%] flex flex-col lg:justify-end xl:pb-5 xl:pl-5 max-xl:text-3xl  text-2xl max-sm:pl-39 max-sm:pt-35  font-medium max-sm:leading-6
                          '>
                             <h1>/WEB DESIGNER</h1>
                             <h1>/UI UX DESIGNER</h1>

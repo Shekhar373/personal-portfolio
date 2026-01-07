@@ -51,7 +51,7 @@ const LetsTalk = () => {
 
   })
   return (
-    <div className='lg:h-screen max-sm:h-[60vh] md:h-[80vh] w-full flex flex-col justify-center lg:leading-36 max-sm:leading-12 md:leading-20 max-xl:leading-52 items-center'>
+    <div className='lg:h-screen max-sm:h-[60vh] md:h-[80vh] w-full flex flex-col justify-center lg:leading-36 max-sm:leading-12 md:leading-20 xl:leading-48 items-center'>
         <div className=' text-xl'>
           <h1 >LET'S START THE COVERSATION</h1>
         </div>
