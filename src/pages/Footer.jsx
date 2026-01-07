@@ -31,7 +31,7 @@ const Footer = () => {
     <div className='lg:h-screen max-sm:h-[70vh] md:h-[70vh]  relative w-full overflow-hidden '>
       <div className='h-[50%] w-full relative '>
         <div className=' max-sm:flex max-sm:justify-center max-sm:items-center max-sm:flex-col lg:absolute lg:bottom-0 lg:right-10'>
-          <div className='lg:text-[3.5vw] max-sm:text-4xl md:text-center md:text-5xl lg:text-right max-sm:text-center leading-tight'>
+          <div className='lg:text-[3.5vw] max-sm:text-3xl md:text-center md:text-5xl lg:text-right max-sm:text-center leading-tight'>
             <h1 className='border-animate inline-block'>+91 7289892887</h1>
             <h1 className='border-animate'>shekhar24102004@gmail.com</h1>
           </div>

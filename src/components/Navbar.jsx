@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div ref={navaniRef} className='h-[15vh] font-medium fixed z-50 w-full flex justify-between items-center p-10'>
-      <div className='text-[2vw] tracking-widest '>
+      <div className='text-[2vw] max-sm:text-xl tracking-widest  '>
         <h1 className=''>Shekhar</h1>
       </div>
       <div className='flex gap-16 max-md:hidden tracking-widest '>

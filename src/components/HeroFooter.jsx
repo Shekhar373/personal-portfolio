@@ -40,7 +40,7 @@ const HeroFooter = () => {
             </div>
             <div className='p-10 mt-28 w-fit'>
                 <h1 className='text-xl'>AVAILABLE TO COLLABORATION</h1>
-                <h1 className='border-animate text-2xl  font-medium ml-20 cursor-pointer'>shekhar24102004@gmail.com</h1>
+                <h1 className='border-animate text-2xl  font-medium lg:ml-20 max-sm:ml-10 cursor-pointer'>shekhar24102004@gmail.com</h1>
             </div>
             
             
