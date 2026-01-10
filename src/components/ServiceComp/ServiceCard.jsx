@@ -23,7 +23,7 @@ const ServiceCard = () => {
     },
     {
       number: "04",
-      name: "LANDING PAGE"
+      name: "MOTION & GSAP"
     },
     
 
@@ -50,7 +50,7 @@ const ServiceCard = () => {
 
   return (
     <div>
-     <div className=' lg:min-h-[150vh] xl:h-[80vh] max-sm:h-auto w-full '>
+     <div className=' lg:min-h-[80vh] xl:h-[80vh] max-sm:h-auto w-full '>
       {servicearr.map((servicearr, index) => {
         return <div key={index} className=' service-line lg:h-[30vh] xl:h-[15vh] md:pl-10 sm:h-[10vh] lg:p-10 max-sm:pl-10 w-screen   flex gap-5'>
           <h1 className=' lg:text-2xl md:text-2xl max-sm:text-lg pb-10 '>{servicearr.number}</h1>

@@ -51,7 +51,7 @@ const LetsTalk = () => {
 
   })
   return (
-    <div className='h-[60vh] md:h-screen w-full flex flex-col justify-center items-center md:leading-20 lg:leading-24 xl:leading-32'>
+    <div className='  h-[60vh] md:h-screen w-full flex flex-col justify-center items-center md:leading-20 lg:leading-28'>
         <div className=' text-xl'>
           <h1 >LET'S START THE COVERSATION</h1>
         </div>
@@ -61,7 +61,7 @@ const LetsTalk = () => {
         <div className=' tracking-[1.5vw] text-xl'>
           <h1 >STARTS WITH</h1>
         </div>
-        <div className='talk-heading-2 text-[10vw] text-[#D83D3D]'>
+        <div className='talk-heading-2 text-[10vw] whitespace-nowrap text-[#D83D3D]'>
           <h1 >GREATE COLLABERATION</h1>
         </div>
     </div>

@@ -40,12 +40,12 @@ const NewHero = () => {
     <div className=' relative h-screen w-screen bg-[#1C1C1C] text-white overflow-hidden'>
       <div className=''>
         <div className=' w-full  flex justify-center gap-10 px-10 pt-10 md:pt-50 md:flex  md:justify-center md:gap-10 md:text-2xl lg:pt-60 lg:text-4xl max-xl:pt-30'>
-          <h1>THE DESIGNER</h1>
-          <h1>THE DEVELOPER</h1>
+          <h1>THE DESIGNER AND DEVELOPER</h1>
+          
         </div>
       </div>
 
-      <div className='heading text-[32vw] text-[#D83D3D] md:absolute md:-bottom-10 right-10 lg:absolute lg:-bottom-30 lg:right-20'>
+      <div className='heading text-center text-[32vw] text-[#D83D3D] md:absolute md:-bottom-10 right-10 lg:absolute lg:-bottom-30 lg:right-20'>
         <h1>SHEKHAR</h1>
       </div>
 

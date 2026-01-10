@@ -17,7 +17,7 @@ const Navbar = () => {
   })
 
   return (
-    <div ref={navaniRef} className='h-[15vh] font-medium fixed z-50 w-full flex justify-between text-white items-center p-10'>
+    <div ref={navaniRef} className='h-[15vh] flex p-5 font-medium fixed z-50 w-full justify-between text-white items-center md:p-10'>
       <div className='text-[2vw] max-sm:text-xl tracking-widest  '>
         <h1 className=''>Shekhar</h1>
       </div>
