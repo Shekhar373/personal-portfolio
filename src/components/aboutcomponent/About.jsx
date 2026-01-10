@@ -10,28 +10,58 @@ const About = () => {
   useGSAP(()=>{
     const split = SplitText.create(".about-pin h1",{
       type:"chars",
-      mask:"chars"
+      
     })
 
-    gsap.from(split.chars,{
-      y:-250,
-      stagger:{
-        amount:1,
-        from:"random"
-
+    gsap.fromTo(split.chars, {
+      'will-change': 'opacity, transform', 
+      z: () => gsap.utils.random(500,950),
+      opacity: 0,
+      xPercent: () => gsap.utils.random(-100,100),
+      yPercent: () => gsap.utils.random(-10,10),
+      rotationX: () => gsap.utils.random(-90,90)
+  }, 
+  {
+      ease: 'expo',
+      opacity: 1,
+      rotationX: 0,
+      rotationY: 0,
+      xPercent: 0,
+      yPercent: 0,
+      z: 0,
+      scrollTrigger: {
+          trigger: ".about-pin",
+          start: 'top 0',
+          end: 'top -150%',
+          // markers:true,
+          scrub: 3,
+          pin: true,
       },
-
-      scrollTrigger:{
-        trigger:".about-pin",
-        // markers:true,
-        start:"top 0",
-        pin:true,
-        scrub:2
+      stagger: {
+          each: 0.006,
+          from: 'random'
       }
-    })
+  });
+
+    // gsap.from(split.chars,{
+    //   y:-250,
+    //   stagger:{
+    //     amount:1,
+    //     from:"random"
+
+    //   },
+
+    //   scrollTrigger:{
+    //     trigger:".about-pin",
+    //     // markers:true,
+    //     start:"top 0",
+    //     pin:true,
+    //     scrub:2
+    //   }
+    // })
   })
   return (
-    <div className='about-pin h-screen w-screen bg-[#101010] text-white text-[10vw] md:leading-28 md:pt-20 lg:pt-0 md:pl-20 max-lg:leading-28 sm:leading-14 xl:leading-44  flex flex-col lg:pl-85 max-sm:pl-10 max-sm:pt-30 lg:justify-center'>
+    <div className='about-pin h-screen w-screen bg-[#1C1C1C] text-white text-4xl py-20 px-10 md:text-[10vw] md:pl-40 md:pt-20 md:leading-20 lg:text-[10vw] lg:leading-28 lg:pt-15  '>
       <h1>DESIGN</h1>
       <h1 className='text-[#A9A9A9]'>IS NOT JUST</h1>
       <h1 className='text-[#A9A9A9]'>DECORATION ,BUT</h1>

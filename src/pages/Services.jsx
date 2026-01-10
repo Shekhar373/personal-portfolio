@@ -35,7 +35,7 @@ const Services = () => {
   return (
     <div>
       
-        <div className='service-head text-[10vw] p-10 '>
+        <div className='service-head text-[#D83D3D] text-[10vw] p-10 '>
         <h1>SERVICES</h1>
       
       </div>

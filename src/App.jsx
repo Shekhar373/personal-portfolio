@@ -8,6 +8,8 @@ import Footer from './pages/Footer'
 import { ScrollSmoother } from 'gsap/all'
 import Parallex from './pages/Parallex'
 import Projects from './pages/Projects'
+import NewHero from './pages/NewHero'
+import Navbar from './components/Navbar'
 
 
 const App = () => {
@@ -22,9 +24,11 @@ const App = () => {
     });
   })
   return (
-    <div id="smooth-wrapper" className='text-[#101010]'>
+    <div id="smooth-wrapper" className='bg-[#1C1C1C] text-white overflow-x-hidden'>
       <div id="smooth-content">
-        <Hero />
+        <Navbar />
+        {/* <Hero /> */}
+        <NewHero />
         <Aboutpage />
         <Projects />
         <Parallex />

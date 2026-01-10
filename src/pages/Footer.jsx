@@ -47,7 +47,7 @@ const Footer = () => {
           <h1 className='border-animate inline-block'>WORKS</h1>
         </div>
       </div>
-      <div className='foot-text text-[17vw] max-sm:absolute max-sm:bottom-5 max-sm:pl-3 text-center mt-10'>
+      <div className='foot-text text-[17vw] text-[#D83D3D] max-sm:absolute max-sm:bottom-5 max-sm:pl-3 text-center mt-10'>
         <h1>SHEKHAR SHARMA</h1>
       </div>
     </div>

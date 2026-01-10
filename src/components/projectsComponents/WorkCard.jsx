@@ -2,7 +2,7 @@ import React from 'react'
 
 const WorkCard = () => {
   return (
-    <div className='h-screen w-full bg-[#101010] text-white relative'>
+    <div className='h-screen w-full bg-[#1C1C1C] text-white relative'>
       <div className='h-[70%] w-full relative'>
          <div className=' gap-5 absolute top-45 left-50 mix-blend-difference z-20'>
             <h1 className='text-2xl pb-5 pl-2'>project 01</h1>
