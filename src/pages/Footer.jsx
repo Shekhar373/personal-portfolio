@@ -44,7 +44,7 @@ const Footer = () => {
         <div className=' max-sm:flex max-sm:gap-10 max-sm:justify-center md:flex md:gap-20 md:justify-center md:mt-30 md:text-3xl max-sm:mt-25 lg:flex-col lg:gap-5 lg:absolute lg:bottom-0 lg:left-10 text-2xl tracking-wider'>
           <h1 className='border-animate'>ABOUT ME</h1>
           <h1 className='border-animate '>SERVICES</h1>
-          <h1 className='border-animate inline-block'>WORKS</h1>
+          <h1 className='border-animate'>WORKS</h1>
         </div>
       </div>
       <div className='foot-text text-[17vw] text-[#D83D3D] max-sm:absolute max-sm:bottom-5 max-sm:pl-3 text-center mt-10'>

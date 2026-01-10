@@ -55,13 +55,13 @@ const LetsTalk = () => {
         <div className=' text-xl'>
           <h1 >LET'S START THE COVERSATION</h1>
         </div>
-        <div className='talk-heading-1 text-[10vw] text-[#D83D3D]'>
+        <div className='talk-heading-1 text-[13vw] md:text-[10vw] text-[#D83D3D]'>
           <h1 >GREAT DESIGN</h1>
         </div>
         <div className=' tracking-[1.5vw] text-xl'>
           <h1 >STARTS WITH</h1>
         </div>
-        <div className='talk-heading-2 text-[10vw] whitespace-nowrap text-[#D83D3D]'>
+        <div className='talk-heading-2 text-[13vw] md:text-[10vw] whitespace-nowrap text-[#D83D3D]'>
           <h1 >GREATE COLLABERATION</h1>
         </div>
     </div>
