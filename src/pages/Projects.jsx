@@ -3,7 +3,7 @@ import WorkCard from '../components/projectsComponents/WorkCard'
 
 const Projects = () => {
   return (
-    <div>
+    <div id='project'>
       <WorkCard />
     </div>
   )

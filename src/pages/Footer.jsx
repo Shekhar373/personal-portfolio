@@ -29,7 +29,7 @@ const Footer = () => {
   //    })
   // })
   return (
-    <div>
+    <div id='contact'>
       <FootComp />
     </div>
   )

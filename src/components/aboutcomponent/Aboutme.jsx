@@ -24,8 +24,8 @@ const Aboutme = () => {
       scrollTrigger: {
         trigger: abouttext.current,
         // markers: true,
-        start: "top 50%",
-        end: 'top -50%',
+        start: "top 70%",
+        end: 'top -30%',
         scrub: 3,
 
       }
@@ -34,7 +34,7 @@ const Aboutme = () => {
 
 
   return (
-    <div className=' about-text-parent h-screen md:h-[130vh] w-full '>
+    <div id='about' className=' about-text-parent h-screen md:h-[130vh] w-full '>
       <div ref={abouttext} className=' about-text text-2xl  h-screen w-full flex flex-col sm:px-10 sm:text-3xl md:justify-center md:items-center md:px-40 md:text-3xl lg:px-70 lg:text-4xl px-10 text-center  '>
         <h1>Hi! I’m a beginner frontend developer who loves creating visually engaging and interactive websites. I work with HTML, CSS, JavaScript, React, and Tailwind CSS, and I enjoy enhancing user experiences with GSAP and web animations.
         </h1>

@@ -33,7 +33,7 @@ const Services = () => {
         
   })
   return (
-    <div className=''>
+    <div id='service' className=''>
       
         <div className='service-head  text-[#D83D3D] text-[10vw] p-10 '>
         <h1>SERVICES</h1>
