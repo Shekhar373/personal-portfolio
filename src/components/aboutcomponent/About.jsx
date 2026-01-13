@@ -61,7 +61,7 @@ const About = () => {
     // })
   })
   return (
-    <div className='about-pin h-screen w-screen bg-[#1C1C1C] text-white text-6xl py-20 pl-15 md:text-[10vw] md:pl-40 md:pt-20 md:leading-20 lg:text-[10vw] lg:leading-28 lg:pt-15  '>
+    <div className='about-pin h-screen w-screen bg-[#1C1C1C] text-white text-5xl py-30 pl-5 md:text-[10vw] md:pl-40 md:pt-20 md:leading-20 lg:text-[10vw] lg:leading-28 lg:pt-15  '>
       <h1>DESIGN</h1>
       <h1 className='text-[#A9A9A9]'>IS NOT JUST</h1>
       <h1 className='text-[#A9A9A9]'>DECORATION ,BUT</h1>

@@ -37,3 +37,20 @@ body {
     transition: width .3s;
 
 }
+
+
+.border-animate-black::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2.5px;
+    background: #1C1C1C;
+    transition: width .3s;
+
+}
+
+.border-animate-black:hover::after{
+    width: 100%;
+    transition: width .3s;
+
+}

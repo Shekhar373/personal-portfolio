@@ -39,8 +39,8 @@ const NewHero = () => {
 
     <div className=' relative h-screen w-screen bg-[#1C1C1C] text-white overflow-hidden'>
       <div className=''>
-        <div className=' w-full  flex justify-center gap-10 px-10 pt-10 md:pt-50 md:flex  md:justify-center md:gap-10 md:text-2xl lg:pt-60 lg:text-4xl max-xl:pt-30'>
-          <h1>THE DESIGNER AND DEVELOPER</h1>
+        <div className='heading w-full  flex justify-center gap-10 px-10 pt-10 md:pt-50 md:flex  md:justify-center md:gap-10 md:text-2xl lg:pt-60 lg:text-4xl max-xl:pt-30'>
+          <h1>CREATIVE FRONTEND DEVELOPER</h1>
           
         </div>
       </div>
